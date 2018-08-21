@@ -113,6 +113,12 @@ AddOutputFilter chunkFilter
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="2 Encoders.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Encoders.vi"/>
 				<Item Name="2 Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Motor.vi"/>
+				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/AI/TypeDefs/AI Channels Enum.ctl"/>
+				<Item Name="AI Channels List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/AI/TypeDefs/AI Channels List.ctl"/>
+				<Item Name="AI Open.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/AI Open.vi"/>
+				<Item Name="AI Read.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/AI Read.vi"/>
+				<Item Name="Analog Scaling Constants List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Analog Scaling Constants List.ctl"/>
+				<Item Name="Analog Scaling Constants.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Analog Scaling Constants.ctl"/>
 				<Item Name="Calculate Clock Settings.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate Clock Settings.vi"/>
 				<Item Name="Calculate Frequency (Normal Mode).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate Frequency (Normal Mode).vi"/>
 				<Item Name="Calculate Frequency (Phase Correct Mode).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate Frequency (Phase Correct Mode).vi"/>
@@ -128,10 +134,24 @@ AddOutputFilter chunkFilter
 				<Item Name="Motor Control.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/Motor Control.vi"/>
 				<Item Name="Mxp Selection.ctl" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/Mxp Selection.ctl"/>
 				<Item Name="myRIO v1.0 Generate Register Values PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/PWM/vis/myRIO v1.0 Generate Register Values PWM.vi"/>
+				<Item Name="myRIO v1.0 Get Analog Scaling Constants.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/myRIO v1.0 Get Analog Scaling Constants.vi"/>
+				<Item Name="myRIO v1.0 Get Scaling Constants AI.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/myRIO v1.0 Get Scaling Constants AI.vi"/>
+				<Item Name="myRIO v1.0 Get Scaling Constants.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/myRIO v1.0 Get Scaling Constants.vi"/>
+				<Item Name="myRIO v1.0 Scaling Constants Table.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Scaling Constants Table.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="Parse Scaling Constant Table.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/Parse Scaling Constant Table.vi"/>
+				<Item Name="Ping.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/Ping.vi"/>
 				<Item Name="PWM Channel.ctl" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/PWM Channel.ctl"/>
 				<Item Name="PWM Open.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/PWM Open.vi"/>
 				<Item Name="PWM Write.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/PWM Write.vi"/>
+				<Item Name="Raw To Scaled Value.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/Raw To Scaled Value.vi"/>
+				<Item Name="Sharp IR.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/Sharp IR.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Motors_Encoders_Sensors_v2.vi" Type="VI" URL="../Motors_Encoders_Sensors_v2.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
