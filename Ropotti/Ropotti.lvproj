@@ -26,7 +26,33 @@
 			</Item>
 			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Main_simpler_algorithm.vi" Type="VI" URL="../Main_simpler_algorithm.vi"/>
+		<Item Name="PID_Separate.vi" Type="VI" URL="../PID_Separate.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Encoder Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Encoder/typedefs/Encoder Channels Enum.ctl"/>
+				<Item Name="Encoder Configuration v1.0.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Encoder/typedefs/Encoder Configuration v1.0.ctl"/>
+				<Item Name="Encoder Count Direction Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Encoder/typedefs/Encoder Count Direction Enum.ctl"/>
+				<Item Name="Encoder Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/Encoder/typedefs/Encoder Reference.ctl"/>
+				<Item Name="Encoder Signal Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Encoder/typedefs/Encoder Signal Mode.ctl"/>
+				<Item Name="Generic FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Generic FPGA Reference.ctl"/>
+				<Item Name="Hardware Version Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Hardware Version Enum.ctl"/>
+				<Item Name="Is FPGA Ref Available.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Is FPGA Ref Available.vi"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="myRIO Generic Hardware Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/myRIO Generic Hardware Reference.ctl"/>
+				<Item Name="myRIO v1.0 Configure Encoder.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Encoder/vis/myRIO v1.0 Configure Encoder.vi"/>
+				<Item Name="myRIO v1.0 Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/myRIO v1.0 Reference.ctl"/>
+				<Item Name="myRIO v1.1 Open Encoder.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Encoder/vis/myRIO v1.1 Open Encoder.vi"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/Encoder/vis/Read.vi"/>
+				<Item Name="Set Duty Cycle and Frequency.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/PWM/vis/Set Duty Cycle and Frequency.vi"/>
+				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/PWM/vis/Smart Open.vi"/>
+			</Item>
+			<Item Name="ReadEncoders.vi" Type="VI" URL="../ReadEncoders.vi"/>
+			<Item Name="SetMotors (SubVI).vi" Type="VI" URL="../SetMotors (SubVI).vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="NI-myRIO-1900-0315334d-KISA" Type="RT myRIO">
@@ -111,7 +137,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="CalcDistance.vi" Type="VI" URL="../CalcDistance.vi"/>
 		<Item Name="Camera.vi" Type="VI" URL="../Camera.vi"/>
-		<Item Name="Color.vi" Type="VI" URL="../../../../../Desktop/Tikun sisältö/World Skills Robot 2017 Sample/Color.vi"/>
+		<Item Name="Color.vi" Type="VI" URL="../../../../../Desktop/Tikun sis?lt?/World Skills Robot 2017 Sample/Color.vi"/>
 		<Item Name="Encoders(subvi).vi" Type="VI" URL="../Encoders(subvi).vi"/>
 		<Item Name="EncoderSpeedMise_original.vi" Type="VI" URL="../EncoderSpeedMise_original.vi"/>
 		<Item Name="global.vi" Type="VI" URL="../global.vi"/>
@@ -425,7 +451,7 @@ AddOutputFilter chunkFilter
 			<Item Name="rioembeddedcanlvapi.dll" Type="Document" URL="rioembeddedcanlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Voltage to Distance.vi" Type="VI" URL="../../../../../Desktop/Tikun sisältö/Part 2 - myRIO Interfacing/Sharp IR Sample/Support VIs/Voltage to Distance.vi"/>
+			<Item Name="Voltage to Distance.vi" Type="VI" URL="../../../../../Desktop/Tikun sis?lt?/Part 2 - myRIO Interfacing/Sharp IR Sample/Support VIs/Voltage to Distance.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
